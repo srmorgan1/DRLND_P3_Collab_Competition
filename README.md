@@ -49,8 +49,7 @@ You need to set up the following dependencies to run the MADDPG model.
 
 4. If you will be running the code on the Udacity server, the Tennis.ipynb notebook is already set up to use the Tennis environment
    already present on the server. Otherwise follow the instructions below if you plan to run it on your local machine.
-
-a. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+   a. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
@@ -59,8 +58,7 @@ a. Download the environment from one of the links below.  You need only select t
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
-
-b. Place the file in the repository folder (the same folder as this README file is in) and unzip (or decompress) the file.
+    b. Place the file in the repository folder (the same folder as this README file is in) and unzip (or decompress) the file.
 
 ### Instructions To Run The Code
 
