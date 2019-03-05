@@ -24,9 +24,8 @@ increases and gets closer to the target.
 
 ## Neural Network Architecture
 
-The Udacity provided DDPG code in Python using PyTorch was adapted to use two agents which act independently but with a shared experience
-buffer. Each agent has its own deep neural networks - local and target actor and critic networks. The architecture of the networks is shown
-below.
+The DDPG code from my previous project (Continuous Control) was adapted to use two agents which act independently but with a shared experience
+buffer. This code is written in Python using PyTorch. Each agent has its own deep neural networks - local and target actor and critic networks. The architecture of the networks is shown below.
 
 ### Actor
   
@@ -37,7 +36,7 @@ below.
 ### Critic
 
 - Hidden Layer 1 : 256 units using relu activation function
-- Concat Layer   : 256 + size of action space (4)
+- Concat Layer   : 256 + size of action space (8)
 - Hidden Layer 2 : 128 units using relu activation function
 - Output Layer   : 1 unit using tanh activation function
   
